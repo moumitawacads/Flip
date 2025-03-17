@@ -1,7 +1,24 @@
 @media (max-width:1301px) {
+
+
+    .key-features{
+        margin: auto;
+        margin-left: 100px;
+        width: 200%;
+    }
+
+    /* .about-us-paragraph {
+        margin-bottom: 70px;
+    } */
+    /* .about-us-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
     .left-content img{
 
-        margin-right: 200px;      
+        margin-right: 150px;      
     
     }
     
@@ -29,6 +46,20 @@
 }
 
 @media (max-width:1101px) {
+
+    /* .about-us-content .key-features .checkmark{
+        width: 1101px;
+
+    } */
+
+    .key-features{
+        margin: auto;
+        margin-left: 125px;
+        width: 300%;
+    }
+
+
+
     .left-content img{
         margin-top:70px;
         margin-right: 50px; 
