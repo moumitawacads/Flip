@@ -635,6 +635,7 @@ text-transform: capitalize;
 .left-content img{
     max-width: 684px;
     height: auto;
+    margin-top: 50px;
     border-radius: 8px;
     margin-right:250px;      
 
@@ -643,8 +644,6 @@ text-transform: capitalize;
 .infoflip-services-content-text img, .infoflip-services-content-text-small img{
     width: 14px;
     height: 20px;
-    top: 3487px;
-    left: 1249px;
     color: #5A7184;
     
     }
@@ -1064,9 +1063,10 @@ flex: 1;
 flex:3;
 }
 .footer-main-image img{
-    width: 178px;
+    max-width: 178px;
     height: 223px;
-    
+    align-items: center; 
+    margin: auto;
 }
 
 .footer-item h4{
