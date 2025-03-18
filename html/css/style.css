@@ -699,7 +699,7 @@ margin-right:10px;
 margin-bottom: 10px;
 }
 
-.infoflip-content-margin a{
+.infoflip-services-content-text-red a{
     font-family: Open Sans;
     font-weight: 700;
     font-size: 16px;
@@ -761,6 +761,10 @@ max-width: 190px;
     margin-left:25px;
     max-width: 250px;
 }
+
+.accordion-services-content{
+    display: none;
+}
 /* ------------------------------------------------------------------ */
 
 
@@ -808,6 +812,7 @@ margin-bottom:10px;
 
 .industry-item{
     max-width: 300px;
+    width:100%;
     height: 249px;
     border-radius: 8px;
     margin:20px;
