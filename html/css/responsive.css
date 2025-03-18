@@ -42,14 +42,22 @@
 
         margin:auto;
     }
-}
 
-@media (max-width:1101px) {
-
-    /* .about-us-content .key-features .checkmark{
-        width: 1101px;
-
-    } */
+    .years-experience {
+        margin-left:400px;
+        margin-top: -50px;
+        background-color: #EC1C4D;
+        color: white;
+        max-width: 216px;
+        height: auto;
+        padding: 15px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
 
     .key-features{
         margin: auto;
@@ -77,4 +85,42 @@
 
         margin:auto;
     }
+
+    .key-features{
+        margin: auto;
+        margin-left: 125px;
+        width: 300%;
+    }
+
+
+
+    .left-content img{
+        margin-top:70px;
+        margin-right: 50px; 
+    
+    
+    }
+    .infoflip-features{
+        max-width: 100%;
+        height: auto;
+        left: 30%;
+        margin-top: 20%;
+
+    }
+
+    .right-content{
+
+        margin:auto;
+    }
+
+    .years-experience {
+        margin-left:300px;
+        margin-top: -50px;
+    
+    }
+}
+
+@media (max-width:1101px) {
+
+
 }
