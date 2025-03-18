@@ -9,14 +9,12 @@ a:link{
 .about-us{
     width: 199px;
     height: 56px;
-    top: 559px;
-    left: 143px;
     background: none;
     border-style: solid;
     border-color: #FFFFFF  1px;
     border-radius: 2000px;
-    padding-top: 20px;
     color: #FFFFFF;
+    padding-top:10px;
 }
 
 .about-us-section {
@@ -315,10 +313,9 @@ color: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: center; /* Vertically center content */
-    align-items: flex-start; /* Align items to the left */
-    padding-left: 30px; /* Add some padding */
-    padding-top: 30px;
-    width: 50%; 
+    margin: 70px;
+    padding-left:50px;
+    width: 47%; 
     color: #FFFFFF;
 }
 
@@ -331,7 +328,6 @@ color: #FFFFFF;
     line-height: 68px;
     letter-spacing: 0.2px;
     color: #FFFFFF;
-
     
 }
 
@@ -342,6 +338,7 @@ color: #FFFFFF;
     line-height: 32px;
     letter-spacing: 0px;
     color: #FFFFFF;
+    margin: 20px 0;
     
 }
 
@@ -359,14 +356,12 @@ text-align: center;
 .view-infoflip{
 width: 199px;
 height: 56px;
-top: 559px;
-left: 143px;
 text-align: center;
 background: #FFFFFF;
 border-style: solid;
 border-color: #FFFFFF  1px;
 border-radius: 2000px;
-padding-top: 20px;
+padding-top:10px
 }
 
 .view-infoflip a{
