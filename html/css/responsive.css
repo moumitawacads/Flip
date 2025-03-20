@@ -118,6 +118,12 @@
         margin-top: -50px;
     
     }
+
+    .big-vector img{
+
+        scale: 0.5 1;
+        left:30%;
+    }
 }
 
 @media (max-width:1101px) {
