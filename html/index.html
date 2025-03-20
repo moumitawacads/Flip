@@ -239,52 +239,102 @@
                     <div class="left-content">
                         <img src="./images/person-holding-brochure.svg" alt="Infoflip Products">
                     </div>
-                    <div class="right-content">
+                    <div class="right-content flex-col">
                         <h2>Designed for Maximum Usability and Efficiency</h2>
                         <p>Infoflips are available in multiple formats and can be customized to suit any industry.</p>
-        
-                        <div class="infoflip-options infoflip-services-content-bigger-box dropdown-services">
-                            <div class="infoflip-content-margin flex-row">                                
+                        <!-- infoflip-services-content-bigger-box -->
+                        <div class="infoflip-content">
+                            <div class="infoflip-options">
+                                <input type="checkbox" id="accordion1" class="accordion-toggle">
+                                <label for="accordion1" class="infoflip-services-content-text-small" onclick="toggleAccordion(this)">
+                                    <div class="infoflip-content-margin flex-row">
+                                        <h3>Mini-Flip</h3>
+                                        <img src="./images/chevron-down.svg" alt="Arrow" class="accordion-arrow">
+                                    </div>
+                                </label>
                                 <div class="accordion-services-content flex-column">
-                                    <a href="#">Mini-Flip Link 1</a>
-                                    <a href="#">Mini-Flip Link 2</a>
-                                    <a href="#">Mini-Flip Link 3</a>
-                                </div>
-                                <div class="infoflip-services-content-text infoflip-services-content-bigger-box ">
-                                    <div class="infoflip-services-up-arrow flex-row"><h3>Mini-Flip</h3><img src="./images/chevron-up.svg" alt="Up Arrow"></div>
                                     <p>Ideal for quick-reference guides, leadership tools, and small training booklets.</p>
                                     <div class="infoflip-services-content-text-red">
-                                        <a  href="#">See More</a>
+                                        <a href="#">See More</a>
                                     </div>
                                 </div>
                             </div>
+                    
+                            <div class="infoflip-options">
+                                <input type="checkbox" id="accordion2" class="accordion-toggle">
+                                <label for="accordion2" class="infoflip-services-content-text-small" onclick="toggleAccordion(this)">
+                                    <div class="infoflip-content-margin flex-row">
+                                        <h3>Standard Infoflip</h3>
+                                        <img src="./images/chevron-down.svg" alt="Arrow" class="accordion-arrow">
+                                    </div>
+                                </label>
+                                <div class="accordion-services-content flex-column">
+                                    <p>Standard Infoflip content goes here.</p>
+                                    <div class="infoflip-services-content-text-red">
+                                        <a href="#">See More</a>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="infoflip-options">
+                                <input type="checkbox" id="accordion3" class="accordion-toggle">
+                                <label for="accordion3" class="infoflip-services-content-text-small" onclick="toggleAccordion(this)">
+                                    <div class="infoflip-content-margin flex-row">
+                                        <h3>Large Infoflip</h3>
+                                        <img src="./images/chevron-down.svg" alt="Arrow" class="accordion-arrow">
+                                    </div>
+                                </label>
+                                <div class="accordion-services-content flex-column">
+                                    <p>Large Infoflip content goes here.</p>
+                                    <div class="infoflip-services-content-text-red">
+                                        <a href="#">See More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <!-- <div class="infoflip-options ">
+                            <div class="infoflip-services-content-text-small">                                                              
+                                    <div class="infoflip-content-margin flex-row ">
+                                        <h3>Mini-Flip</h3><img src="./images/chevron-down.svg" alt="Arrow">
+                                        <div class="accordion-services-content flex-column">
+                                            <p>Ideal for quick-reference guides, leadership tools, and small training booklets.</p>
+                                            <div class="infoflip-services-content-text-red">
+                                                <a  href="#">See More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>    
                         </div>
         
                         <div class="infoflip-options">
                             <div class="infoflip-services-content-text-small">
                                 <div class="infoflip-content-margin flex-row">
-                                    <h3>Standard Infoflip </h3><img src="./images/chevron-down.svg" alt="Down Arrow">
+                                    <h3>Standard Infoflip </h3><img src="./images/chevron-down.svg" alt="Arrow">
                                 </div>
                             </div>
-                            <!-- <div class="accordion-services-content">
-                                <a href="#">Standard Infoflip Link 1</a>
-                                <a href="#">Standard Infoflip Link 2</a>
-                                <a href="#">Standard Infoflip Link 3</a>
-                            </div> -->
-                        </div>
+                            <div class="accordion-services-content flex-column">
+                                <p>Ideal for quick-reference guides, leadership tools, and small training booklets.</p>
+                                <div class="infoflip-services-content-text-red">
+                                    <a  href="#">See More</a>
+                                </div>
+                            </div>
+            
         
-                        <div class="infoflip-options">
-                            <div class="infoflip-services-content-text-small ">
-                                <div class="infoflip-content-margin flex-row">
-                                    <h3>Large Infoflip </h3><img src="./images/chevron-down.svg" alt="Down Arrow">
+                            <div class="infoflip-options">
+                                <div class="infoflip-services-content-text-small ">
+                                    <div class="infoflip-content-margin flex-row">
+                                        <h3>Large Infoflip </h3><img src="./images/chevron-down.svg" alt="Arrow">
+                                    </div>
+                                    <div class="accordion-services-content flex-column">
+                                        <p>Ideal for quick-reference guides, leadership tools, and small training booklets.</p>
+                                        <div class="infoflip-services-content-text-red">
+                                            <a  href="#">See More</a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <!-- <div class="accordion-services-content">
-                                    <a href="#">Large Infoflip Link 1</a>
-                                    <a href="#">Large Infoflip Link 2</a>
-                                    <a href="#">Large Infoflip Link 3</a>
-                                </div> -->
                             </div>
-                        </div>
+                        </div> -->
                     </div>
     
 
@@ -357,6 +407,7 @@
         <section>
             <div class="clients-say-container">
                 <h2>What Our Clients Say</h2>
+                
                 <div class="client-testimonials-container flex-row">
                     <div class="client-testimonials flex-col">
                         <img src="./images/client1.svg" alt="Client Icon">
