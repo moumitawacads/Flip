@@ -126,7 +126,13 @@
     }
 }
 
-@media (max-width:1101px) {
+@media (max-width:950px) {
 
+    .industry-item{
+ 
+        width:100%;
+
+    }
+    
 
 }
