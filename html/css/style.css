@@ -442,17 +442,25 @@ margin-top:84px;
     width: 143px;
     height: 83.30097198486328px;
     margin: 0 20px;
-    flex:1;
+    /* flex:1; */
 }
  
 .client-logos{
     position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    /* animation: scrollLogos 25s linear infinite; 
-    overflow: hidden; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    animation: scrollLogos 25s linear infinite; 
+    overflow: hidden;
 }
-/*
+
+.client-logos1{
+    position: absolute;
+    /* margin-left: auto;
+    margin-right: auto; */
+    animation: scrollLogos1 25s linear infinite; 
+    overflow: hidden;
+}
+
 @keyframes scrollLogos {
     0% {
         transform: translateX(0%);
@@ -460,7 +468,17 @@ margin-top:84px;
     100% {
         transform: translateX(-100%);
     }
-} */
+}
+
+
+@keyframes scrollLogos1 {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
 
 /* ------------------------------------------------------------------ */
 
